@@ -1,0 +1,10 @@
+{
+  "id": "bf21d495-7c22-4f1d-aaae-4183141bc334",
+  "name": "The house",
+  "posterImage": "http://localhost:3000/images/house.jpg",
+  "backgroundImage": "http://localhost:3000/images/house.jpg",
+  "videoLink": "https://www.youtube.com/watch?v=0mh5d2a8wp0&ab_channel=%D0%A1%D0%B0%D1%84%D0%B8",
+  "genre": "Drama",
+  "released": 2018,
+  "isFavorite": "false"
+}
