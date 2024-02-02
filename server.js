@@ -60,6 +60,34 @@ app.get('/images/:imageName', (req, res) => {
     res.sendFile(imagePath);
 });
 
+app.get('/favorite', (req, res) => {
+    //Избранное
+})
+
+app.post('/favorite/:filmId/:status', (req, res) => {
+    //Добавить в избранное
+})
+
+app.get('/comments/:filmId', (req, res) => {
+    //Комментарии по фильму
+})
+
+app.post('/comments/:filmId', (req, res) => {
+    //Добавить комментарий
+})
+
+app.post('/login', (req, res) => {
+    //Проверить логин и пароль
+})
+
+app.get('/login', (req, res) => {
+    //Вернуть данные (логин, пароль, аватар(3 шт сделать и выводить рандомно), токен
+})
+
+app.delete('/logout', (req, res) => {
+    //Удаление токена
+})
+
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
