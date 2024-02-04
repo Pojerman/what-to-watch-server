@@ -1,5 +1,7 @@
 const express = require('express');
 const cors = require("cors");
+const serverless = require('serverless-http');
+const router = express.Router();
 const authRoutes = require('./routes/authRoutes');
 const filmsRoutes = require('./routes/filmsRoutes');
 const imagesRoutes = require('./routes/imagesRoutes');
@@ -19,6 +21,5 @@ app.use(imagesRoutes);
 app.use(commentsRoutes);
 app.use(favoriteRoutes);
 
-app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
-});
+app.use('/.netlify/functions/api', router);
+module.exports.handler = serverless(app);
