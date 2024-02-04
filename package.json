@@ -2,7 +2,7 @@
   "name": "what-to-watch-server",
   "version": "1.0.0",
   "scripts": {
-    "start": "node server.js",
+    "start": "node functions/server.js",
     "build": "netlify deploy --prod"
   },
   "dependencies": {

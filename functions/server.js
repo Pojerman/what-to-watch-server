@@ -2,11 +2,11 @@ const express = require('express');
 const cors = require("cors");
 const serverless = require('serverless-http');
 const router = express.Router();
-const authRoutes = require('./routes/authRoutes');
-const filmsRoutes = require('./routes/filmsRoutes');
-const imagesRoutes = require('./routes/imagesRoutes');
-const favoriteRoutes = require('./routes/favoriteRoutes');
-const commentsRoutes = require('./routes/commentsRoutes');
+const authRoutes = require('../routes/authRoutes');
+const filmsRoutes = require('../routes/filmsRoutes');
+const imagesRoutes = require('../routes/imagesRoutes');
+const favoriteRoutes = require('../routes/favoriteRoutes');
+const commentsRoutes = require('../routes/commentsRoutes');
 
 const app = express();
 
@@ -20,5 +20,5 @@ app.use(imagesRoutes);
 app.use(commentsRoutes);
 app.use(favoriteRoutes);
 
-app.use('/.netlify/server', router);
+app.use('/.netlify/functions/server', router);
 module.exports.handler = serverless(app);
