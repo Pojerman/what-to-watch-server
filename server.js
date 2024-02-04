@@ -20,5 +20,5 @@ app.use(imagesRoutes);
 app.use(commentsRoutes);
 app.use(favoriteRoutes);
 
-app.use('/.netlify/functions/api', router);
+app.use('/.netlify/server', router);
 module.exports.handler = serverless(app);
