@@ -19,6 +19,25 @@
     "genre": "Fantasy"
   },
   {
+    "id": "bf21d495-7c22-4f1d-aaae-4183141bc334",
+    "name": "The house",
+    "posterImage": "http://localhost:3000/images/house.jpg",
+    "backgroundImage": "http://localhost:3000/images/house.jpg",
+    "backgroundColor": "#ffffff",
+    "videoLink": "https://url-to-video/video.jpg",
+    "description": "Arriving in Detroit for a job interview, the girl discovers that a guy already lives in the house she booked. After agreeing to stay the night, she soon discovers a secret door in the basement, and behind it there are secrets that are better not to know.",
+    "rating": 8.9,
+    "scoresCount": 240,
+    "director": "Zach Cregger",
+    "starring": [
+      "Georgina Campbell"
+    ],
+    "runTime": 99,
+    "released": 2018,
+    "isFavorite": false,
+    "genre": "Drama"
+  },
+  {
     "id": "c404a074-197a-4dcf-ac24-f082c319cc5c",
     "name": "Black hole",
     "posterImage": "http://localhost:3000/images/blackhole.jpg",

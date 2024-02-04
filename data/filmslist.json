@@ -14,6 +14,14 @@
     "genre": "Drama"
   },
   {
+    "id": "bf21d495-7c22-4f1d-aaae-4183141bc334",
+    "name": "The house",
+    "previewImage": "http://localhost:3000/images/house.jpg",
+    "backgroundImage": "http://localhost:3000/images/house.jpg",
+    "previewVideoLink": "https://www.youtube.com/watch?v=0mh5d2a8wp0&ab_channel=%D0%A1%D0%B0%D1%84%D0%B8",
+    "genre": "Drama"
+  },
+  {
     "id": "b20466ec-2b71-4a57-9279-1754cb5bf840",
     "name": "Cyrano",
     "previewImage": "http://localhost:3000/images/cyrano.jpg",
